@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#EEE;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.container{
+    background-color: #c8cdd1;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    float: left;
+}
+
+.name{
+    color:rgb(30, 8, 82);
+    float: left;
+    padding: 15px;
+}
+
+.contact{
+    float:right;
+    padding: 20px;
+}
+
+.contact a{
+    text-decoration: none;
+    color:rgb(17, 9, 97) ;
+    font-weight: bold;
+}
+.contact a:hover{
+    text-decoration: underline;
+    color: brown;
+} 
+
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid rgb(51, 53, 48);
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+#personal{}
+
+.content{
+    margin:20px
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: left ;
+}
+
+.common-hr{
+    border: 2px solid rgb(50, 53, 50);
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+.edu-left{
+    float:left;
+    width: 47%;
+}
+.edu-right{
+    float:right;
+    width: 47%;
+}
+.edu-left1{
+    float:left;
+    width: 30%;
+}
+.edu-right1{
+    float:left;
+    margin-left: 25px;
+    width: 30%;
+}
+.edu-right2{
+    float: left;
+    width: 30%;
+    
+}
+
+footer.bottom{
+    background-color: rgb(123, 128, 136);
+    text-align: center;
+    padding: 15px;
+}
+.bottom a{
+    color: rgb(38, 5, 90);
+    text-decoration: none;
+    margin: 30px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.bottom p{
+    color: white;
+    margin-top: 10px;
+}
+.bottom a:hover{
+    color: rgb(85, 10, 26);
+    text-decoration: underline;
+}
+
+span{
+    font-size: 22px;
+    color: rgb(36, 68, 5);
+    font-weight: bold;
+
+}
